@@ -151,8 +151,8 @@ def hyades_deB2001XTIGS(dtab, blue_filter, red_filter):
         theta = (data_plxsh[anid]) / 1000.0
         # distance based on parallax ~ 1/angle
         d = 1. / theta
-        print(Bmag[i])
-        print(-5*np.log10(d) + 5)
+        #print(Bmag[i])
+        #print(-5*np.log10(d) + 5)
         # convert to abs mag
         Bmag[i] = Bmag[i] - 5*np.log10(d) + 5
         Rmag[i] = Rmag[i] - 5*np.log10(d) + 5
